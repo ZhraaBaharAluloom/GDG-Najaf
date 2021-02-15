@@ -27,14 +27,14 @@ function App() {
             <FaInstagramSquare color="grey" size="20" />
           </a>
           <a
-            href="/https://www.facebook.com/najafgdg/"
+            href="https://www.facebook.com/najafgdg/"
             target="_blank"
             rel="noreferrer"
           >
             <IoLogoFacebook color="grey" size="24" />
           </a>
           <a
-            href="/https://twitter.com/gdgnajaf?lang=ar"
+            href="https://twitter.com/gdgnajaf?lang=ar"
             target="_blank"
             rel="noreferrer"
           >
@@ -51,7 +51,7 @@ function App() {
         <div className="col-12 col-md-10 col-lg-10">
           <p>Join us on our GDG platform to reach all our upcoming events 👇🏼</p>
           <a
-            href="gdg.community.dev/gdg-najaf"
+            href="https://gdg.community.dev/gdg-najaf/"
             target="_blank"
             rel="noreferrer"
           >
