@@ -5,7 +5,7 @@ export const InstagramIconStyle = styled.div`
   /* justify-content: center; */
   /* display: flex; */
   /* flex-wrap: wrap; */
-  margin: 10em 5em 0em 5em;
+  margin: 10em 2em 0em 2em;
   padding: 20px;
   p {
     display: block;

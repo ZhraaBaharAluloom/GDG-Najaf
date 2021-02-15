@@ -7,7 +7,7 @@ export const HomeImageStyle = styled.img`
 
 export const HomeWrapper = styled.div`
   text-align: center;
-  margin: 5em 5em auto 5em;
+  margin: 5em auto auto auto;
   display: flex;
   justify-content: center;
   p {
