@@ -4,7 +4,7 @@ import { observer } from "mobx-react";
 import logo from "../../media/logo.png";
 
 // Styles
-import { NavBarStyle } from "./Styles";
+import { NavBarStyle } from "./styles";
 
 function Navbar() {
   const [click, setClick] = useState(false);
@@ -36,7 +36,7 @@ function Navbar() {
         </div>
         <ul className={click ? "nav-menu active" : "nav-menu"}>
           <li className="nav-item">
-            <Link to="/Home" className="nav-links" onClick={closeMobileMenu}>
+            <Link to="/" className="nav-links" onClick={closeMobileMenu}>
               Home
               <i className="far fa-utensils-alt" />
             </Link>
@@ -63,7 +63,7 @@ function Navbar() {
               className="nav-links"
               onClick={closeMobileMenu}
             >
-              Contact Us
+              Contact
               <i className="far fa-utensils-alt" />
             </Link>
           </li>

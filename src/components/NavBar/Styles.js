@@ -9,6 +9,7 @@ export const NavBarStyle = styled.div`
   .navbar {
     height: 80px;
     display: flex;
+    box-shadow: 10px 10px 8px #888888;
     /* justify-content: center; */
     /* align-items: center; */
     font-size: 1.2rem;
