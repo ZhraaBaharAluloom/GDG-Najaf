@@ -1,10 +1,7 @@
 import styled from "styled-components";
 
 export const HomeImageStyle = styled.img`
-  width: ${window < 300 ? "2em" : "10em"};
-  /* width: 10em; */
-
-  /* float: left; */
+  width: 8em;
 `;
 
 export const HomeWrapper = styled.div`
@@ -12,6 +9,7 @@ export const HomeWrapper = styled.div`
   margin: 5em auto auto auto;
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   img {
     @media screen and (max-width: 960px) and (min-width: 300px),
       (min-width: 1100px) {
