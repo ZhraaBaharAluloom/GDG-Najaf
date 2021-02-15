@@ -1,7 +1,14 @@
 import styled from "styled-components";
 
 export const HomeImageStyle = styled.img`
-  width: 8em;
+  @media screen and (max-width: 900px) and (min-width: 400px),
+    (min-width: 1100px) {
+    width: 10em;
+  }
+
+  @media screen and (max-width: 375px) {
+    width: 3em;
+  }
 `;
 
 export const HomeWrapper = styled.div`
@@ -10,20 +17,7 @@ export const HomeWrapper = styled.div`
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  img {
-    @media screen and (max-width: 960px) and (min-width: 300px),
-      (min-width: 1100px) {
-      width: 15em;
-    }
-    @media screen and (max-width: 200px) {
-      width: 3em;
-    }
-  }
-  /* @media screen and (max-width: 990px) {
-    img {
-      width: 10em;
-    }
-  } */
+
   p {
     /* font-family: Impact, Haettenschweiler, Arial Narrow Bold", sans-serif; */
     font-weight: bold;
