@@ -28,7 +28,7 @@ const Home = () => {
         }}
       >
         <img
-          style={{ height: 300 }}
+          style={{ maxHeight: 350 }}
           src="https://media.istockphoto.com/photos/old-wall-texture-cement-dirty-gray-with-black-background-abstract-picture-id1197671817?k=6&m=1197671817&s=612x612&w=0&h=jXaABJz096IxPIsjNvzZULZkJp8dVKbtzjLmlATBn9A="
           class="card-img"
           alt="..."

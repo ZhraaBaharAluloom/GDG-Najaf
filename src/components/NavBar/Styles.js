@@ -104,7 +104,7 @@ export const NavBarStyle = styled.div`
     }
 
     .nav-links:hover {
-      background-color: #1888ff;
+      background-color: white;
       border-radius: 0;
     }
 
