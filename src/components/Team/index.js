@@ -1,5 +1,8 @@
 import React from "react";
 
+// images
+import athraa from "./athraa.jpg";
+
 // Styles
 import { TeamListWrapper } from "./style";
 import { AiOutlineTwitter } from "react-icons/ai";
@@ -59,10 +62,7 @@ const Team = () => {
         style={{ maxWidth: "18rem", margin: 10 }}
       >
         <div className="card-body">
-          <img
-            alt="..."
-            src="https://www.searchpng.com/wp-content/uploads/2019/02/Deafult-Profile-Pitcher.png"
-          />
+          <img alt="..." src={athraa} />
           <p className="card-text">Athraa Mousawi</p>
           <AiOutlineTwitter />
           <FaFacebookF style={{ marginLeft: 3, marginRight: 4 }} />
