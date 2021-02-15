@@ -5,7 +5,7 @@ import { AboutWrapper } from "./styles";
 
 const About = () => {
   return (
-    <AboutWrapper className="container">
+    <AboutWrapper className="row container">
       <h2>What we're about</h2>
       <p>
         We aim to spread technology and knowledge to the community and help the

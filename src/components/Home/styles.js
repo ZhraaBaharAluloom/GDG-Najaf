@@ -19,16 +19,15 @@ export const HomeWrapper = styled.div`
 `;
 
 export const CardWrapper = styled.div`
-  box-shadow: 10px 10px 8px #888888;
-  margin: 2em 0.5em auto 0.5em;
+  &.container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
 `;
 
-export const CardTextStyle = styled.p`
-  display: inline-flex;
-  color: #3d3d3d;
-  width: 25%;
-  text-align: justify;
-  margin-right: 4.5em;
+export const CardTextStyle = styled.div`
+  margin-bottom: 1em;
 `;
 export const IconStyle = styled.img`
   width: 18px;
