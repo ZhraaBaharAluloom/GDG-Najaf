@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { observer } from "mobx-react";
-import logo from "../../media/logo.png";
+import logo from "./logo.png";
 
 // Styles
 import { NavBarStyle } from "./styles";
