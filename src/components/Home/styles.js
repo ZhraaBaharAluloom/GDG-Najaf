@@ -3,10 +3,10 @@ import styled from "styled-components";
 export const HomeImageStyle = styled.img`
   @media screen and (max-width: 900px) and (min-width: 400px),
     (min-width: 1100px) {
-    width: 10em;
+    width: 15em;
   }
 
-  @media screen and (max-width: 375px) {
+  @media screen and (max-width: 320px) {
     width: 3em;
   }
 `;
