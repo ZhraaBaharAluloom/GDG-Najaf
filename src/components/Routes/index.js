@@ -1,11 +1,17 @@
 import React from "react";
 import { Route, Switch } from "react-router";
+
+// Components
+import About from "../About";
 import Home from "../Home";
 import Team from "../Team";
 
 const Routes = () => {
   return (
     <Switch>
+      <Route path="/about-us">
+        <About />
+      </Route>
       <Route path="/team">
         <Team />
       </Route>
@@ -18,9 +24,7 @@ const Routes = () => {
          <Route path="/contact-us" >
              <Home />
          </Route>
-         <Route path="/about-us" >
-             <Home />
-         </Route> */}
+          */}
     </Switch>
   );
 };
