@@ -15,7 +15,7 @@ const Home = () => {
     <>
       <HomeWrapper>
         <p>Welcome to GDG Najaf</p>
-        <HomeImageStyle
+        <img
           src="https://movietvtechgeeks.com/wp-content/uploads/2016/07/the-dawn-of-e-persons-2016-tech-images.jpg"
           alt="home"
         />

@@ -1,7 +1,9 @@
 import styled from "styled-components";
 
 export const HomeImageStyle = styled.img`
-  width: 10em;
+  width: ${window < 300 ? "2em" : "10em"};
+  /* width: 10em; */
+
   /* float: left; */
 `;
 
@@ -10,10 +12,30 @@ export const HomeWrapper = styled.div`
   margin: 5em auto auto auto;
   display: flex;
   justify-content: center;
+  img {
+    @media screen and (max-width: 960px) and (min-width: 300px),
+      (min-width: 1100px) {
+      width: 15em;
+    }
+    @media screen and (max-width: 200px) {
+      width: 3em;
+    }
+  }
+  /* @media screen and (max-width: 990px) {
+    img {
+      width: 10em;
+    }
+  } */
   p {
-    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    /* font-family: Impact, Haettenschweiler, Arial Narrow Bold", sans-serif; */
     font-weight: bold;
-    font-size: 1.5em;
+    @media screen and (max-width: 900px) and (min-width: 700px),
+      (min-width: 1100px) {
+      font-size: 25px;
+    }
+    @media screen and (max-width: 200px) {
+      font-size: 12px;
+    }
     color: #707070;
   }
 `;
