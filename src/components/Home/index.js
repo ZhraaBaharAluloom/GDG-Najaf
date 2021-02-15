@@ -25,7 +25,7 @@ const Home = () => {
         style={{
           boxShadow: "10px 10px 8px #888888",
           margin: "2em 0.5em auto 0.5em",
-          height: "22.5em",
+          height: "23em",
         }}
       >
         <img

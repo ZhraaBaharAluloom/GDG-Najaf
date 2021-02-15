@@ -13,7 +13,7 @@ export const HomeWrapper = styled.div`
   p {
     font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
     font-weight: bold;
-    font-size: 25px;
+    font-size: 1.5em;
     color: #707070;
   }
 `;
