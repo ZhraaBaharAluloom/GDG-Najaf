@@ -1,12 +1,12 @@
 import styled from "styled-components";
 
 export const HomeImageStyle = styled.img`
-  @media screen and (max-width: 900px) and (min-width: 400px),
+  @media screen and (max-width: 900px) and (min-width: 450px),
     (min-width: 1100px) {
     width: 15em;
   }
 
-  @media screen and (max-width: 375px) {
+  @media screen and (max-width: 414px) {
     width: 6em;
   }
 `;
