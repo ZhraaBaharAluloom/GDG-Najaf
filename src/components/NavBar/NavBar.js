@@ -4,7 +4,7 @@ import { observer } from "mobx-react";
 import logo from "./logo.png";
 
 // Styles
-import { NavBarStyle } from "./styles";
+import { NavBarStyle } from "./Styles";
 
 function Navbar() {
   const [click, setClick] = useState(false);
