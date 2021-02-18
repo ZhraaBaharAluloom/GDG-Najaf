@@ -6,7 +6,7 @@ export const HomeImageStyle = styled.img`
     width: 15em;
   }
 
-  @media screen and (max-width: 414px) {
+  @media screen and (max-width: 547px) {
     width: 10em;
   }
 `;
